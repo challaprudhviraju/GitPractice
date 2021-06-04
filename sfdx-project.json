@@ -6,7 +6,7 @@
     }
   ],
   "name": "MyProject",
-  "namespace": "prudhviraju05",
+  "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "51.0"
 }
