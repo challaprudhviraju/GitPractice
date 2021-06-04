@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "MyProject",
+  "namespace": "prudhviraju05",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "51.0"
+}
