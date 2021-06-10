@@ -1,0 +1,22 @@
+<!--
+    @description       : 
+    @author            : Amit Singh
+    @group             : 
+    @last modified on  : 12-25-2020
+    @last modified by  : Amit Singh
+    Modifications Log 
+    Ver   Date         Author       Modification
+    1.0   12-25-2020   Amit Singh   Initial Version
+-->
+<template>
+    <h1>
+        I am inside h1 tag
+    </h1>
+    <p>
+        Para content
+    </p>
+    {disableViewAllBtn} <br/>
+    {disableModifyAllBtn} <br/>
+<lightning-button variant="brand" label="Send Email" title="Send Email" icon-name="utility:email" disabled={disableSendEmailBtn}></lightning-button>
+<lightning-button variant="brand" label="Setup" title="Setup" icon-name="utility:setup" disabled={disableSendBtn}></lightning-button>
+</template>

@@ -1,0 +1,44 @@
+<!--
+    @description       : 
+    @author            : Amit Singh
+    @group             : 
+    @last modified on  : 12-25-2020
+    @last modified by  : Amit Singh
+    Modifications Log 
+    Ver   Date         Author       Modification
+    1.0   12-25-2020   Amit Singh   Initial Version
+-->
+<template>
+    <div class="slds-m-around_small">
+        hasSendMessage => {hasSendMessage} <br/>
+        <template if:true={hasSendMessage}>
+            <lightning-button variant="brand"
+                label="Send Message" onclick={changeTemplate}  icon-name="utility:setup"
+            ></lightning-button>
+        </template>
+    </div>
+    <div class="slds-m-around_small">
+        <template if:true={disaleViewSetup}>
+            <lightning-button variant="brand" label="Go to Setup"  icon-name="utility:setup"
+            ></lightning-button>
+        </template>
+    </div>
+    <div class="slds-m-around_small">
+        <template if:true={disaleEmailButton}>
+            <lightning-button variant="brand" label="Send Email" icon-name="utility:email"
+            ></lightning-button>
+        </template>
+    </div>
+    <div class="slds-m-around_small">
+        <template if:true={canDevelopApex}>
+            <lightning-button variant="brand" label="Open Developer Console" icon-name="utility:setup"
+            ></lightning-button>
+        </template>
+    </div>
+    <div class="slds-m-around_small">
+        viewAll {viewAll}
+    </div>
+    <div class="slds-m-around_small">
+        ModifyAll {ModifyAll}
+    </div>
+</template>
